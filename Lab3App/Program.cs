@@ -29,7 +29,7 @@ namespace Lab3App
             possibleCollectiable.Add(new Axe("OnlyAxe"));
 
             // One MagicWand
-            possibleCollectiable.Add(new Axe("OnlyMagicWand")); //¯\_(ツ)_/¯ not my fault if you mess up the code we aren't allowed to change. It's on the expected output like this too so chaning it to wand would actually be entirely invalid. Try harder.
+            possibleCollectiable.Add(new MagicWand("OnlyMagicWand"));
 
             // Associate the CollectionBoard object to all the possible Collectiables
             // using a foreach loop
